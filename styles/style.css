@@ -1,0 +1,154 @@
+a{
+    text-decoration-line: none;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
+
+a:visted{
+    color: #609;
+}
+
+#announcment{
+    width: 300px;
+}
+
+#announcment p, announcment a{
+    position: absolute;
+    display: inline-block;
+    width: max-content;
+}
+
+announcment a{
+    position: relative;
+    right: 0;
+}
+
+#announcment p{
+    padding: 0;
+    position: relative;
+    left: 0;
+}
+
+body{
+    height: 100%;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    top: 50%
+}
+
+footer{
+    bottom:0;
+    display: inline-block;
+    left:0;
+    position: absolute;
+    right:0;
+}
+
+header{
+    height: 30px;
+    display: inline-block;
+    left:0;
+    padding-top: 30px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+header a, footer a{
+    color: #000;
+    opacity: 0.75;
+    padding-left: 15px;
+    width: max-content;
+}
+
+#left-header, #right-header{
+    top: 22px;
+}
+
+#left-header, #left-footer{
+    display: inline-block;
+    height: max-content;
+    left: 10px;
+    position: absolute;
+    width: max-content;
+}
+
+main{
+    text-align: -webkit-center;
+}
+
+#main-google-img{
+    height: 92px;
+    width: 272px;
+    padding-top: 250px;
+}
+
+#right-header, #right-footer{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    height: max-content;
+    width: max-content;
+}
+
+#search-bar{
+    width: 632px;
+}
+
+input{
+    width: 100%;
+    z-index: 2;
+}
+
+input:hover{
+    box-shadow: 3px 0px rgb(116, 114, 114);
+}
+
+#voice-search{
+    position: relative;
+    bottom: 22px;
+    left: 300px;
+    z-index: 1;
+}
+
+#standard-search-button, #lucky-button{
+    height:32px;
+    width: max-content;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+#google-apps, #google-notifications{
+    padding: 0px;
+    border: 0px;
+    background-color: transparent;
+    color: transparent;
+    height:30px;
+    width: 30px;
+
+}
+
+#google-account{
+    padding: 0px;
+    border: 0px;
+    border-radius: 30px;
+    background-color: blue;
+    color: transparent;
+    height:30px;
+    width: 30px;
+
+}
